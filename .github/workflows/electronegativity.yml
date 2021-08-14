@@ -18,10 +18,6 @@ jobs:
           npm uninstall -g yarn pnpm
           npm install -g corepack
 
-      - name: yarn v3
-        run: |
-          yarn
-
       - uses: doyensec/electronegativity-action@v1.1
 
       - name: Upload sarif
