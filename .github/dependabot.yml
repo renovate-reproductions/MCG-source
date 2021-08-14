@@ -1,0 +1,67 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "06:00"
+      # Use Japan Standard Time (UTC +09:00)
+      timezone: "Asia/Tokyo"
+    # Raise pull requests for version updates
+    # to github-actions against the `develop` branch
+    target-branch: "develop"
+    allow:
+      # Allow updates for *
+      - dependency-name: "*"
+    # Add assignees
+    assignees:
+      - "dependabot[bot]"
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "npm"
+    labels:
+      - "dependencies"
+    milestone: 1
+    # Disable version updates for npm dependencies
+    open-pull-requests-limit: 0
+    pull-request-branch-name:
+      # Separate sections of the branch name with a hyphen
+      # for example, `dependabot/npm_and_yarn/next_js/acorn/6.4.1`
+      separator: "/"
+    # Auto rebasing for npm pull requests
+    rebase-strategy: "auto" #auto <--> disabled
+
+  # Maintain dependencies for npm, yarn
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "06:00"
+      # Use Japan Standard Time (UTC +09:00)
+      timezone: "Asia/Tokyo"
+    # Raise pull requests for version updates
+    # to npm against the `develop` branch
+    target-branch: "develop"
+    allow:
+      # Allow updates for *
+      - dependency-name: "*"
+    # Add assignees
+    assignees:
+      - "dependabot[bot]"
+    labels:
+      - "dependencies"
+    milestone: 1
+    # Disable version updates for npm dependencies
+    open-pull-requests-limit: 0
+    pull-request-branch-name:
+      # Separate sections of the branch name with a hyphen
+      # for example, `dependabot/npm_and_yarn/next_js/acorn/6.4.1`
+      separator: "/"
+    # Auto rebasing for npm pull requests
+    rebase-strategy: "auto" #auto <--> disabled

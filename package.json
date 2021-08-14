@@ -1,0 +1,37 @@
+{
+  "name": "multicommentgenerator",
+  "version": "0.1.0-alpha",
+  "author": "Neko7sora",
+  "readme": "docs/README.md",
+  "license": "LICENSE",
+  "description": "マルチコメントジェネレーター",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CommentGeneratorCollection/MCG-source.git",
+    "mirror": {
+      "gitlab-url": "https://gitlab.com/CommentGeneratorCollection/MCG-source.git"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/CommentGeneratorCollection/MCG-source/issues"
+  },
+  "homepage": "https://github.com/CommentGeneratorCollection",
+  "keywords": [
+    "CommentGenerator",
+    "Electron"
+  ],
+  "languages": [
+    "ja"
+  ],
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron ./main.js"
+  },
+  "engines": {
+    "node": ">=14.17.3"
+  },
+  "devDependencies": {
+    "electron": "13.1.9"
+  },
+  "packageManager": "yarn@3.0.1"
+}

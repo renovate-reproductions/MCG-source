@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title>MultiCommentGenerator</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style>
+        /*タブ切り替え全体のスタイル*/
+        .tabs {
+            margin-top: 50px;
+            padding-bottom: 40px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            min-height: calc(100% - 40px);
+        }
+
+        /*タブのスタイル*/
+        .tab_item {
+            width: calc(100%/3);
+            height: 30px;
+            border-bottom: 3px solid #5ab4bd;
+            background-color: #d9d9d9;
+            line-height: 30px;
+            font-size: 12px;
+            text-align: center;
+            color: #565656;
+            display: block;
+            float: left;
+            text-align: center;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .tab_item:hover {
+            opacity: 0.75;
+        }
+
+        /*ラジオボタンを全て消す*/
+        input[name="tab_item"] {
+            display: none;
+        }
+
+        /*タブ切り替えの中身のスタイル*/
+        .tab_content {
+            display: none;
+            padding: 20px 20px 0;
+            clear: both;
+            overflow: hidden;
+        }
+
+
+        /*選択されているタブのコンテンツのみを表示*/
+        #setsumei:checked~#setsumei_content,
+        #kihon:checked~#kihon_content,
+        #shousai:checked~#shousai_content,
+        #risuna:checked~#risuna_content,
+        #hontai:checked~#hontai_content,
+        #maruti:checked~#maruti_content {
+            display: block;
+        }
+
+        /*選択されているタブのスタイルを変える*/
+        .tabs input:checked+.tab_item {
+            background-color: #5ab4bd;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body style="background: white;">
+    <div class="tabs">
+        <input id="setsumei" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="setsumei">説明</label>
+        <input id="kihon" type="radio" name="tab_item">
+        <label class="tab_item" for="kihon">基本</label>
+        <input id="shousai" type="radio" name="tab_item">
+        <label class="tab_item" for="shousai">詳細</label>
+        <input id="risuna" type="radio" name="tab_item">
+        <label class="tab_item" for="risuna">リスナー</label>
+        <input id="hontai" type="radio" name="tab_item">
+        <label class="tab_item" for="hontai">本体</label>
+        <input id="maruti" type="radio" name="tab_item">
+        <label class="tab_item" for="maruti">マルチ</label>
+        <div class="tab_content" id="setsumei_content">
+            <h1>CommentGenerator-Electron</h1>
+            <p>
+                We are using Node.js <span id="node-version"></span>,
+                Chromium <span id="chrome-version"></span>,
+                and Electron <span id="electron-version"></span>.
+            </p>
+            <p>補足、このソフトを開いた直後に閉じるとエラーが起きます。</p>
+        </div>
+        <div class="tab_content" id="kihon_content">
+            kihonの内容がここに入ります
+        </div>
+        <div class="tab_content" id="shousai_content">
+            shousaiの内容がここに入ります
+        </div>
+        <div class="tab_content" id="risuna_content">
+            risunaの内容がここに入ります
+        </div>
+        <div class="tab_content" id="hontai_content">
+            hontaiの内容がここに入ります
+        </div>
+        <div class="tab_content" id="maruti_content">
+            marutiの内容がここに入ります
+        </div>
+    </div>
+    <!--通知-->
+    <script src="./renderer.js"></script>
+</body>
+
+</html>
