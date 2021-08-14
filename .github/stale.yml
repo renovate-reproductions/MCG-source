@@ -13,7 +13,7 @@ onlyLabels: []
 
 # Issues or Pull Requests with these labels will never be considered stale. Set to `[]` to disable
 exemptLabels:
-  - Blocked
+  - "Blocked ❌ by other issues or PRs"
 
 # Set to true to ignore issues in a project (defaults to false)
 exemptProjects: false
@@ -25,11 +25,11 @@ exemptMilestones: false
 exemptAssignees: false
 
 # Label to use when marking as stale
-staleLabel: "auto_wontfix"
+staleLabel: "[！] help wanted"
 
 # Comment to post when marking as stale. Set to `false` to disable
 markComment: >
-  この issue は、最近のアクティビティがないため、自動的に「auto_wontfix」というラベルがされています。 
+  この issue は、最近のアクティビティがないため、自動的に「[！] help wanted」というラベルがされています。 
   貢献していただきありがとうございます。
 
 # Comment to post when removing the stale label.
