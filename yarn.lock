@@ -60,9 +60,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^14.6.2":
-  version: 14.17.4
-  resolution: "@types/node@npm:14.17.4"
-  checksum: a0bbe143273f9bf39c1d4f9955b6efeabfa5ddb436692ca8fe1a835ceaacfb2536cad122df54a29daaf6139dcc79a480502c39477cf5fe28b9af2709a41312e7
+  version: 14.17.9
+  resolution: "@types/node@npm:14.17.9"
+  checksum: e59b92e4346ed0db61e042d439f9658d1d3e8ad1d14825b714804cafae8ce22220ff6c8d907c4e4c6384aac748de07283fa321ef13cb8bdeb460eb789d634244
   languageName: node
   linkType: hard
 
@@ -90,9 +90,9 @@ __metadata:
   linkType: hard
 
 "buffer-from@npm:^1.0.0":
-  version: 1.1.1
-  resolution: "buffer-from@npm:1.1.1"
-  checksum: ccc53b69736008bff764497367c4d24879ba7122bc619ee499ff47eef3a5b885ca496e87272e7ebffa0bec3804c83f84041c616f6e3318f40624e27c1d80f045
+  version: 1.1.2
+  resolution: "buffer-from@npm:1.1.2"
+  checksum: 0448524a562b37d4d7ed9efd91685a5b77a50672c556ea254ac9a6d30e3403a517d8981f10e565db24e8339413b43c97ca2951f10e399c6125a0d8911f5679bb
   languageName: node
   linkType: hard
 
@@ -143,9 +143,9 @@ __metadata:
   linkType: hard
 
 "core-js@npm:^3.6.5":
-  version: 3.15.2
-  resolution: "core-js@npm:3.15.2"
-  checksum: f8f61569c4c3bdf50679226f5a1045551192a2f4bc3fa46a873b6fa834cff6d1634ee138a6e4bae3eea99f1b1db2d588fa693de74640447476292b41f595a4c3
+  version: 3.16.2
+  resolution: "core-js@npm:3.16.2"
+  checksum: f48b988ab6d144aad1a7c09a73174946f797ec050b4566dee9bf0227560296cdd0f714b37f0ee065303eccf0e7fb8115ccca52ab3e80db12e0dcc20a88219483
   languageName: node
   linkType: hard
 
@@ -166,14 +166,14 @@ __metadata:
   linkType: hard
 
 "debug@npm:^4.1.0, debug@npm:^4.1.1":
-  version: 4.3.1
-  resolution: "debug@npm:4.3.1"
+  version: 4.3.2
+  resolution: "debug@npm:4.3.2"
   dependencies:
     ms: 2.1.2
   peerDependenciesMeta:
     supports-color:
       optional: true
-  checksum: 2c3352e37d5c46b0d203317cd45ea0e26b2c99f2d9dfec8b128e6ceba90dfb65425f5331bf3020fe9929d7da8c16758e737f4f3bfc0fce6b8b3d503bae03298b
+  checksum: 820ea160e267e23c953c9ed87e7ad93494d8cda2f7349af5e7e3bb236d23707ee3022f477d5a7d2ee86ef2bf7d60aa9ab22d1f58080d7deb9dccd073585e1e43
   languageName: node
   linkType: hard
 
@@ -374,9 +374,9 @@ __metadata:
   linkType: hard
 
 "graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0":
-  version: 4.2.6
-  resolution: "graceful-fs@npm:4.2.6"
-  checksum: 792e64aafda05a151289f83eaa16aff34ef259658cefd65393883d959409f5a2389b0ec9ebf28f3d21f1b0ddc8f594a1162ae9b18e2b507a6799a70706ec573d
+  version: 4.2.8
+  resolution: "graceful-fs@npm:4.2.8"
+  checksum: 5d224c8969ad0581d551dfabdb06882706b31af2561bd5e2034b4097e67cc27d05232849b8643866585fd0a41c7af152950f8776f4dd5579e9853733f31461c6
   languageName: node
   linkType: hard
 
