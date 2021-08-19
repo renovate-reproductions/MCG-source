@@ -1,19 +1,11 @@
 name: Electronegativity
 
 on:
-  push: [ develop ]
+  push:
+    branches: [ develop ]
 #    branches-ignore:
 #      - dependabot/**
 #      - renovate/**
-    paths-ignore:
-      - README.md
-      - LICENSE
-      - .gitignore
-      - .github/ISSUE_TEMPLATE/**
-      - .dockerignore
-      - .env.example
-      - .node-version
-      - .nvmrc
 
 jobs:
   build_job:
