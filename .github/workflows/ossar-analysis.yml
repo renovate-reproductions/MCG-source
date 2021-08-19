@@ -6,11 +6,23 @@ name: OSSAR
 on:
   push:
     branches: [ develop ]
-  pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ develop ]
-  schedule:
-    - cron: '18 13 * * 0'
+#  pull_request:
+#    # The branches below must be a subset of the branches above
+#    branches: [ develop ]
+#  schedule:
+#    - cron: '18 13 * * 0'
+    branches-ignore:
+      - dependabot/**
+      - renovate/**
+    paths-ignore:
+      - README.md
+      - LICENSE
+      - .gitignore
+      - .github/ISSUE_TEMPLATE/**
+      - .dockerignore
+      - .env.example
+      - .node-version
+      - .nvmrc
 
 jobs:
   OSSAR-Scan:

@@ -28,9 +28,9 @@ exemptAssignees: false
 staleLabel: "[！] help wanted"
 
 # Comment to post when marking as stale. Set to `false` to disable
-markComment: >
-  この issue は、最近のアクティビティがないため、自動的に「[！] help wanted」というラベルがされています。 
-  貢献していただきありがとうございます。
+# markComment: >
+#   この issue は、最近のアクティビティがないため、自動的に「auto_wontfix」というラベルがされています。
+#   貢献していただきありがとうございます。
 
 # Comment to post when removing the stale label.
 # unmarkComment: >

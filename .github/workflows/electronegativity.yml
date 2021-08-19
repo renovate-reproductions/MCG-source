@@ -1,14 +1,26 @@
 name: Electronegativity
 
-on: 
-  push:
-    
+on:
+  push: [ develop ]
+#    branches-ignore:
+#      - dependabot/**
+#      - renovate/**
+    paths-ignore:
+      - README.md
+      - LICENSE
+      - .gitignore
+      - .github/ISSUE_TEMPLATE/**
+      - .dockerignore
+      - .env.example
+      - .node-version
+      - .nvmrc
+
 jobs:
   build_job:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
@@ -18,7 +30,7 @@ jobs:
           npm uninstall -g yarn pnpm
           npm install -g corepack
 
-      - uses: doyensec/electronegativity-action@v1.1
+      - uses: CommentGeneratorCollection/electronegativity-action@v1.1.1
 
       - name: Upload sarif
         uses: github/codeql-action/upload-sarif@v1

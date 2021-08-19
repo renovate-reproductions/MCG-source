@@ -1,0 +1,17 @@
+# https://docs.github.com/ja/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners
+# 各行はファイルパターンの後に一人以上のオーナーが続きます。
+
+# これらのオーナーは、リポジトリ中のすべてに対する
+# デフォルトのオーナーになります。 後のマッチが優先されないかぎり、
+# 誰かがプルリクエストをオープンすると、
+# @global-owner1と@global-owner2にはレビューがリクエストされます。
+# *       @global-owner1 @global-owner2
+# *       @Neko7sora
+
+# 順序は重要です。最後にマッチしたパターンが最も
+# 高い優先度を持ちます。 誰かがJSファイルだけを変更する
+# プルリクエストをオープンすると、@js-ownerだけにレビューが
+# リクエストされ、グローバルのオーナーにはリクエストされません。
+#*.js    @js-owner
+
+# 仕様の関係上コメントアウトしています。
