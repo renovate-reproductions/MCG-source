@@ -22,7 +22,7 @@ jobs:
 #          npm uninstall -g yarn pnpm
 #          npm install -g corepack
 
-      - uses: CommentGeneratorCollection/electronegativity-action@master
+      - uses: CommentGeneratorCollection/electronegativity-action@develop
 
       - name: Upload sarif
         uses: github/codeql-action/upload-sarif@v1
