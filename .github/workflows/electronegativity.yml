@@ -13,6 +13,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Configure
+        run: npm config set '//npm.pkg.github.com/:_authToken' "${PAT}"
+        env:
+          PAT: ${{secrets.PAT}}
+          
+      - name: Configure
+        run: npm config set '@commentgeneratorcollection' "https://npm.pkg.github.com"
+
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
