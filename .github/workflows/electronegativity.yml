@@ -22,11 +22,6 @@ jobs:
         run: |
           npm uninstall -g yarn pnpm
           npm install -g corepack
-
-      - name: Configure
-        run: npm config set '//npm.pkg.github.com/:_authToken' "${NODE_AUTH_TOKEN}"
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - uses: CommentGeneratorCollection/electronegativity-action@develop
         env:
