@@ -13,11 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Configure
-        run: npm config set '//npm.pkg.github.com/:_authToken' "${PAT}"
-        env:
-          PAT: ${{secrets.PAT}}
-
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
@@ -27,6 +22,11 @@ jobs:
           npm uninstall -g yarn pnpm
           npm install -g corepack
 
+      - name: Configure
+        run: npm config set '//npm.pkg.github.com/:_authToken' "${PAT}"
+        env:
+          PAT: ${{secrets.PAT}}
+          
       - uses: CommentGeneratorCollection/electronegativity-action@develop
 
       - name: Upload sarif
