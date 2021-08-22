@@ -20,6 +20,7 @@ W3C HTML5の規格は2021年1月に廃止されています。
 - Node.js v14.17.x ~ v14.x
 - yarn v3.0.x ~ v3.x **(Zero-Installs)**
 - Electron v13.x ~ v..
+- いろいろと....(え
 
 ## プログラム作成条件
 1. HTML5コメントジェネレーター、HTML5コメントジェネレーター改に、
@@ -49,16 +50,3 @@ W3C HTML5の規格は2021年1月に廃止されています。
 また、ソフトウェアにデジタル署名して、コードサイニング証明書されたソフトウェアはMicrosoft Storeに配布を予定しています。
 
 コードサイニング証明書は、ソフトウェアにデジタル署名を行う電子署名用の証明書です。 ソフトウェアの配布元を認証し、なりすましや内容の改ざんなどがされていないことを保証し、ユーザの手元に責任をもってソフトウェアを届けることができます。
-
-### 基本的にいじらなくても良いファイル（このファイルについて詳しく知らない人は変にいじらない方がいいよ！
- - renovate.json
- - .gitignore
- - yarn.lock
- - .yarnrc.yml
- - .yarn/*
- - CHANGELOG.md
- - CODE_OF_CONDUCT.md
- - CONTRIBUTING.md
- - LICENSE
- - SECURITY.md
- - .editorconfig
