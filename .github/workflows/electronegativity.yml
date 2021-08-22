@@ -22,7 +22,7 @@ jobs:
           npm uninstall -g yarn pnpm
           npm install -g corepack
 
-      - uses: CommentGeneratorCollection/electronegativity-action@v1
+      - uses: CommentGeneratorCollection/electronegativity-action
         env:
           PAT: ${{secrets.PAT}}
 
