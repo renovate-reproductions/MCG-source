@@ -21,6 +21,10 @@ jobs:
         run: |
           npm uninstall -g yarn pnpm
           npm install -g corepack
+          
+      - name: yarn cache clean
+        run: |
+          yarn cache clean
 
       - uses: CommentGeneratorCollection/electronegativity-action@develop
 
