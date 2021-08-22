@@ -25,10 +25,10 @@ jobs:
           
       - name: remove yarn files
         run: |
-          rm yarn.lock
-          rm .yarnrc.yml
-          rm .yarn/*
-          rm .yarn
+          rm -r -f -v  yarn.lock 
+          rm -r -f -v .yarnrc.yml
+          rm -r -f -v  .yarn/*
+          rm -r -f -v  .yarn
 
       - name: generate npm
           # Skip post-install scripts here, as a malicious
