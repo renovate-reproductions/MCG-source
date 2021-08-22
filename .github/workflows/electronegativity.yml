@@ -9,7 +9,7 @@ on:
 
 jobs:
   build_job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
@@ -21,12 +21,8 @@ jobs:
         run: |
           npm uninstall -g yarn pnpm
           npm install -g corepack
-          
-      - name: yarn cache clean
-        run: |
-          yarn cache clean
 
-      - uses: CommentGeneratorCollection/electronegativity-action@develop
+      - uses: CommentGeneratorCollection/electronegativity-action@v1
 
       - name: Upload sarif
         uses: github/codeql-action/upload-sarif@v1
