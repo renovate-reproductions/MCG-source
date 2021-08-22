@@ -23,6 +23,18 @@ jobs:
           npm uninstall -g yarn pnpm
           npm install -g corepack
           
+      - name: remove yarn files
+        run: |
+          rm yarn.lock
+          rm .yarnrc.yml
+          rm .yarn/*
+          rm .yarn
+
+      - name: generate npm
+          # Skip post-install scripts here, as a malicious
+        run: |
+         npm install --ignore-scripts
+          
       - uses: CommentGeneratorCollection/electronegativity-action@develop
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
