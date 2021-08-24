@@ -31,7 +31,7 @@
     "node": ">=14.17.3"
   },
   "devDependencies": {
-    "electron": "13.2.1"
+    "electron": "13.2.2"
   },
   "packageManager": "yarn@3.0.1"
 }

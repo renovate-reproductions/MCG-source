@@ -216,16 +216,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:13.2.1":
-  version: 13.2.1
-  resolution: "electron@npm:13.2.1"
+"electron@npm:13.2.2":
+  version: 13.2.2
+  resolution: "electron@npm:13.2.2"
   dependencies:
     "@electron/get": ^1.0.1
     "@types/node": ^14.6.2
     extract-zip: ^1.0.3
   bin:
     electron: cli.js
-  checksum: 836537d387e574085d5a3df74414d36a21c2b5741609f2d9bd90c2fa718d99c8054e0e893f4ca4292ac852647d49b9bcaa0bf226acc16dac5852db37e9a83668
+  checksum: b6c6b71ed574f6c6a28cc3ac973d5791ef0af30b7a431cad00e949e5b2d97338dc9093d2aee883696c6e637b573b51ea390b3cce8e72897129119ca8b53f7fc1
   languageName: node
   linkType: hard
 
@@ -525,7 +525,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "multicommentgenerator@workspace:."
   dependencies:
-    electron: 13.2.1
+    electron: 13.2.2
   languageName: unknown
   linkType: soft
 
