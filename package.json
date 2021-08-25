@@ -22,6 +22,7 @@
 	],
 	"main": "./main.js",
 	"scripts": {
+		"build": "yarn git:submodule",
 		"start": "electron ./main.js",
 		"git:submodule": "git submodule update --remote"
 	},
