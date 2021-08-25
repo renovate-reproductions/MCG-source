@@ -1,0 +1,1 @@
+https://yarnpkg.com/getting-started/migration#editor-support
