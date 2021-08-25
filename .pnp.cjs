@@ -192,10 +192,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["core-js", [
-        ["npm:3.16.2", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.16.2-c7ce9e8d48/node_modules/core-js/",
+        ["npm:3.16.3", {
+          "packageLocation": "./.yarn/cache/core-js-npm-3.16.3-0d175ec7e7-f44f73655b.zip/node_modules/core-js/",
           "packageDependencies": [
-            ["core-js", "npm:3.16.2"]
+            ["core-js", "npm:3.16.3"]
           ],
           "linkType": "HARD",
         }]
@@ -298,7 +298,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["electron", [
         ["npm:13.2.2", {
-          "packageLocation": "./.yarn/unplugged/electron-npm-13.2.2-f05fba3ffa/node_modules/electron/",
+          "packageLocation": "./.yarn/cache/electron-npm-13.2.2-f05fba3ffa-b6c6b71ed5.zip/node_modules/electron/",
           "packageDependencies": [
             ["electron", "npm:13.2.2"],
             ["@electron/get", "npm:1.13.0"],
@@ -413,7 +413,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["global-agent", "npm:2.2.0"],
             ["boolean", "npm:3.1.4"],
-            ["core-js", "npm:3.16.2"],
+            ["core-js", "npm:3.16.3"],
             ["es6-error", "npm:4.1.1"],
             ["matcher", "npm:3.0.0"],
             ["roarr", "npm:2.15.4"],
