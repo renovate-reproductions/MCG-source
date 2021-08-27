@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["electron", "npm:13.2.2"],
-            ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"]
+            ["typescript", "patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=d8b4e7"]
           ],
           "linkType": "SOFT",
         }]
@@ -83,23 +83,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-keyv-npm-3.1.2-f562027480-769e462ae9.zip/node_modules/@types/keyv/",
           "packageDependencies": [
             ["@types/keyv", "npm:3.1.2"],
-            ["@types/node", "npm:16.7.1"]
+            ["@types/node", "npm:16.7.2"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@types/node", [
-        ["npm:14.17.11", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-14.17.11-1749a5f307-94192a5f6f.zip/node_modules/@types/node/",
+        ["npm:14.17.12", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-14.17.12-6f997aabe9-7efbce3781.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:14.17.11"]
+            ["@types/node", "npm:14.17.12"]
           ],
           "linkType": "HARD",
         }],
-        ["npm:16.7.1", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-16.7.1-ed9db6a0db-fcf1a2c7b1.zip/node_modules/@types/node/",
+        ["npm:16.7.2", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.7.2-f9553f7520-aef77c109e.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:16.7.1"]
+            ["@types/node", "npm:16.7.2"]
           ],
           "linkType": "HARD",
         }]
@@ -109,7 +109,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-responselike-npm-1.0.0-85dd08af42-e99fc7cc62.zip/node_modules/@types/responselike/",
           "packageDependencies": [
             ["@types/responselike", "npm:1.0.0"],
-            ["@types/node", "npm:16.7.1"]
+            ["@types/node", "npm:16.7.2"]
           ],
           "linkType": "HARD",
         }]
@@ -302,7 +302,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["electron", "npm:13.2.2"],
             ["@electron/get", "npm:1.13.0"],
-            ["@types/node", "npm:14.17.11"],
+            ["@types/node", "npm:14.17.12"],
             ["extract-zip", "npm:1.7.0"]
           ],
           "linkType": "HARD",
@@ -646,7 +646,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["multicommentgenerator", "workspace:."],
             ["electron", "npm:13.2.2"],
-            ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"]
+            ["typescript", "patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=d8b4e7"]
           ],
           "linkType": "SOFT",
         }]
@@ -916,10 +916,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["typescript", [
-        ["patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7", {
-          "packageLocation": "./.yarn/cache/typescript-patch-bb3b548ba1-bc2c4fdf0f.zip/node_modules/typescript/",
+        ["patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=d8b4e7", {
+          "packageLocation": "./.yarn/cache/typescript-patch-d3512b3735-11d6ab6e86.zip/node_modules/typescript/",
           "packageDependencies": [
-            ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"]
+            ["typescript", "patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=d8b4e7"]
           ],
           "linkType": "HARD",
         }]
