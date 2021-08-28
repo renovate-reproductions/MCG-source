@@ -53,9 +53,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 16.7.2
-  resolution: "@types/node@npm:16.7.2"
-  checksum: aef77c109e2fd93b5dc6ec0a57a0878aaaa58adf0e63d9618d67b116ad3f2a3eb2589a99deaf9fda4a0805068b2533e3d2cf8e8dc3572251c498ec3dc929a76c
+  version: 16.7.4
+  resolution: "@types/node@npm:16.7.4"
+  checksum: da7813e6c37e7813645a9d40de6d9f803fbadb2975748d307ec31d8e4f9baabccf49b667a39e4b1288d477ec7d34a339e8a41d8703a1d7ab0ec8eb2516073f27
   languageName: node
   linkType: hard
 
@@ -216,16 +216,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:13.2.2":
-  version: 13.2.2
-  resolution: "electron@npm:13.2.2"
+"electron@npm:13.2.3":
+  version: 13.2.3
+  resolution: "electron@npm:13.2.3"
   dependencies:
     "@electron/get": ^1.0.1
     "@types/node": ^14.6.2
     extract-zip: ^1.0.3
   bin:
     electron: cli.js
-  checksum: b6c6b71ed574f6c6a28cc3ac973d5791ef0af30b7a431cad00e949e5b2d97338dc9093d2aee883696c6e637b573b51ea390b3cce8e72897129119ca8b53f7fc1
+  checksum: c4c4c710b645f11a5afb83b1f61af481224b3f5dbe1e04058a1e59de5a7f1131d0d417089ba04216d3fd44113b48a935ce612e0d36e3295e28ae787e4eee9f60
   languageName: node
   linkType: hard
 
@@ -525,7 +525,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "multicommentgenerator@workspace:."
   dependencies:
-    electron: 13.2.2
+    electron: 13.2.3
     typescript: 4.4.2
   languageName: unknown
   linkType: soft

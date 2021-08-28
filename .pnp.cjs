@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["electron", "npm:13.2.2"],
+            ["electron", "npm:13.2.3"],
             ["typescript", "patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=d8b4e7"]
           ],
           "linkType": "SOFT",
@@ -83,7 +83,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-keyv-npm-3.1.2-f562027480-769e462ae9.zip/node_modules/@types/keyv/",
           "packageDependencies": [
             ["@types/keyv", "npm:3.1.2"],
-            ["@types/node", "npm:16.7.2"]
+            ["@types/node", "npm:16.7.4"]
           ],
           "linkType": "HARD",
         }]
@@ -96,10 +96,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:16.7.2", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-16.7.2-f9553f7520-aef77c109e.zip/node_modules/@types/node/",
+        ["npm:16.7.4", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.7.4-ae3b97cd09-da7813e6c3.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:16.7.2"]
+            ["@types/node", "npm:16.7.4"]
           ],
           "linkType": "HARD",
         }]
@@ -109,7 +109,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-responselike-npm-1.0.0-85dd08af42-e99fc7cc62.zip/node_modules/@types/responselike/",
           "packageDependencies": [
             ["@types/responselike", "npm:1.0.0"],
-            ["@types/node", "npm:16.7.2"]
+            ["@types/node", "npm:16.7.4"]
           ],
           "linkType": "HARD",
         }]
@@ -297,10 +297,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["electron", [
-        ["npm:13.2.2", {
-          "packageLocation": "./.yarn/cache/electron-npm-13.2.2-f05fba3ffa-b6c6b71ed5.zip/node_modules/electron/",
+        ["npm:13.2.3", {
+          "packageLocation": "./.yarn/cache/electron-npm-13.2.3-3e069bdf9f-c4c4c710b6.zip/node_modules/electron/",
           "packageDependencies": [
-            ["electron", "npm:13.2.2"],
+            ["electron", "npm:13.2.3"],
             ["@electron/get", "npm:1.13.0"],
             ["@types/node", "npm:14.17.12"],
             ["extract-zip", "npm:1.7.0"]
@@ -645,7 +645,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["multicommentgenerator", "workspace:."],
-            ["electron", "npm:13.2.2"],
+            ["electron", "npm:13.2.3"],
             ["typescript", "patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=d8b4e7"]
           ],
           "linkType": "SOFT",
