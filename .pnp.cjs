@@ -83,7 +83,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-keyv-npm-3.1.2-f562027480-769e462ae9.zip/node_modules/@types/keyv/",
           "packageDependencies": [
             ["@types/keyv", "npm:3.1.2"],
-            ["@types/node", "npm:16.7.4"]
+            ["@types/node", "npm:16.7.5"]
           ],
           "linkType": "HARD",
         }]
@@ -96,10 +96,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:16.7.4", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-16.7.4-ae3b97cd09-da7813e6c3.zip/node_modules/@types/node/",
+        ["npm:16.7.5", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.7.5-0c46f24f72-19765a6e2f.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:16.7.4"]
+            ["@types/node", "npm:16.7.5"]
           ],
           "linkType": "HARD",
         }]
@@ -109,7 +109,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-responselike-npm-1.0.0-85dd08af42-e99fc7cc62.zip/node_modules/@types/responselike/",
           "packageDependencies": [
             ["@types/responselike", "npm:1.0.0"],
-            ["@types/node", "npm:16.7.4"]
+            ["@types/node", "npm:16.7.5"]
           ],
           "linkType": "HARD",
         }]
@@ -192,10 +192,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["core-js", [
-        ["npm:3.16.3", {
-          "packageLocation": "./.yarn/cache/core-js-npm-3.16.3-0d175ec7e7-f44f73655b.zip/node_modules/core-js/",
+        ["npm:3.16.4", {
+          "packageLocation": "./.yarn/cache/core-js-npm-3.16.4-5b55421e3f-6f1b82b0b9.zip/node_modules/core-js/",
           "packageDependencies": [
-            ["core-js", "npm:3.16.3"]
+            ["core-js", "npm:3.16.4"]
           ],
           "linkType": "HARD",
         }]
@@ -413,7 +413,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["global-agent", "npm:2.2.0"],
             ["boolean", "npm:3.1.4"],
-            ["core-js", "npm:3.16.3"],
+            ["core-js", "npm:3.16.4"],
             ["es6-error", "npm:4.1.1"],
             ["matcher", "npm:3.0.0"],
             ["roarr", "npm:2.15.4"],
