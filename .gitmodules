@@ -1,3 +1,6 @@
 [submodule "skins"]
 	path = skins
 	url = https://github.com/CommentGeneratorCollection/MCG-skins
+[submodule ".community"]
+	path = .community
+	url = https://github.com/CommentGeneratorCollection/.github
