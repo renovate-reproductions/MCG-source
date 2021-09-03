@@ -10,7 +10,10 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.json, *.yml, *.yaml, *.lock, *.hbs, *.md, *.markdown, *.mdown, *.mdwn, *.mkd, *.mkdn, *.mdtxt, *.mdtext, *.text, *.txt]
+[*.json, *.yml, *.yaml, *.lock, *.hbs]
+indent_size = 2
+
+[*.md, *.markdown, *.mdown, *.mdwn, *.mkd, *.mkdn, *.mdtxt, *.mdtext, *.text, *.txt, *.html, *.htm]
 indent_size = 2
 
 [*.js, *.jsx, *.ts, *.tsx, *.mjs, *.cjs]
