@@ -1,3 +1,5 @@
+//electron breaking change --> not working...(T.T)
+
 // Modules to control application life and create native browser window
 const { app, BrowserWindow, nativeTheme } = require('electron');
 
@@ -15,7 +17,7 @@ function createWindow() {
 		autoHideMenuBar: true,
 		backgroundColor: nativeTheme.shouldUseDarkColors ? '#1e1e1e' : '#ffffff',
 		webPreferences: {
-			//preload: path.join(__dirname, 'preload.js'),
+			preload: path.join(__dirname, 'preload.js'),
 			enableRemoteModule: true,
 			nodeIntegration: true,
 			contextIsolation: true

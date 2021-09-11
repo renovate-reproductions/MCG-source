@@ -2,8 +2,8 @@
 	"name": "multicommentgenerator",
 	"version": "0.1.0-alpha",
 	"author": "Neko7sora",
-	"readme": "docs/README.md",
-	"license": "LICENSE.txt",
+	"readme": "README.md",
+	"license": "LICENSE.md",
 	"description": "マルチコメントジェネレーター",
 	"repository": {
 		"type": "git",

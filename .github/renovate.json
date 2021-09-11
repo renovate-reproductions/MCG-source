@@ -1,19 +1,19 @@
 {
-    "extends": ["config:base"],
-    "timezone": "Asia/Tokyo",
-    "labels": ["Renovate"],
-    "lockFileMaintenance": {
-        "enabled": true,
-        "automerge": true
-    },
-    "patch": {
-        "automerge": true
-    },
-    "ignoreDeps": ["node"],
-    "packageRules": [
-      {
-        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-          "automerge": true
+  "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
+  "labels": ["Renovate"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  },
+  "ignoreDeps": ["node"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
     }
-     ]
+  ]
 }

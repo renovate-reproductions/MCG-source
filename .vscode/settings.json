@@ -1,6 +1,34 @@
 {
   "search.exclude": {
+    "**/.community": true,
     "**/.yarn": true,
-    "**/.pnp.*": true
+    "**/.pnp.*": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true,
+    "node_modules/": true
+  },
+  "files.exclude": {
+    ".community/": true,
+    ".yarn/": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true,
+    "node_modules/": true,
+    "LICENSE.md": false
+  },
+  "files.autoGuessEncoding": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "[bat]": {
+    "files.encoding": "shiftjis",
+    "files.autoGuessEncoding": false,
+    "files.eol": "\r\n"
   }
 }

@@ -1,6 +1,8 @@
 [submodule "skins"]
 	path = skins
 	url = https://github.com/CommentGeneratorCollection/MCG-skins
+	ignore = dirty
 [submodule ".community"]
 	path = .community
 	url = https://github.com/CommentGeneratorCollection/.github
+	ignore = dirty
