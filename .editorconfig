@@ -21,7 +21,7 @@ indent_size = 2
 [*{.js,.jsx,.ts,.tsx,.mjs,.cjs,.ts}]
 charset = utf-8
 indent_style = space
-indent_size = 3
+indent_size = 2
 
 [*.bat]
 end_of_line = crlf

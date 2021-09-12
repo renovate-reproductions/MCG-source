@@ -1,168 +1,172 @@
 /* Basic styling */
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
 *,
-*:before,
-*:after {
-	box-sizing: inherit;
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 html,
 body {
-	height: 100%;
-	margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-	font-family: "Segoe UI", sans-serif;
-	background: #1a2933;
-	color: #fff;
-	border: 1px solid #48545c;
-	overflow-y: hidden;
+  font-family: "Segoe UI", sans-serif;
+  background: #1a2933;
+  color: #fff;
+  border: 1px solid #48545c;
+  overflow-y: hidden;
 }
 
 h1 {
-	margin: 0 0 10px 0;
-	font-weight: 600;
-	line-height: 1.2;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 p {
-	margin-top: 10px;
-	color: rgba(255, 255, 255, 0.4);
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 #titlebar {
-	display: block;
-	position: fixed;
-	height: 32px;
-	width: calc(100% - 2px);
-	padding: 4px;
-	color: #fff;
+  display: block;
+  position: fixed;
+  height: 32px;
+  width: calc(100% - 2px);
+  padding: 4px;
+  color: #fff;
 }
 
 .maximized #titlebar {
-	width: 100%;
-	padding: 0;
+  width: 100%;
+  padding: 0;
 }
 
 #main {
-	height: calc(100% - 32px);
-	margin-top: 32px;
-	padding: 20px;
-	overflow-y: auto;
+  height: calc(100% - 32px);
+  margin-top: 32px;
+  padding: 20px;
+  overflow-y: auto;
 }
 
 #titlebar #drag-region {
-	width: 100%;
-	height: 100%;
-	-webkit-app-region: drag;
-	display: grid;
-	grid-template-columns: auto 138px;
+  width: 100%;
+  height: 100%;
+  -webkit-app-region: drag;
+  display: grid;
+  grid-template-columns: auto 138px;
 }
 
 #window-title {
-	grid-column: 1;
-	display: flex;
-	align-items: center;
-	margin-left: 8px;
-	overflow: hidden;
-	font-family: "Segoe UI", sans-serif;
-	font-size: 12px;
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  overflow: hidden;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 12px;
 }
 
 .maximized #window-title {
-	margin-left: 12px;
+  margin-left: 12px;
 }
 
 #window-title span {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1.5;
 }
 
 #window-controls {
-	display: grid;
-	grid-template-columns: repeat(3, 46px);
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 46px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
 }
 
 #window-controls {
-	-webkit-app-region: no-drag;
+  -webkit-app-region: no-drag;
 }
 
 #window-controls .button {
-	grid-row: 1 / span 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	user-select: none;
+  grid-row: 1 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  user-select: none;
 }
 
 @media (-webkit-device-pixel-ratio: 1.5),
-	(device-pixel-ratio: 1.5),
-	(-webkit-device-pixel-ratio: 2),
-	(device-pixel-ratio: 2),
-	(-webkit-device-pixel-ratio: 3),
-	(device-pixel-ratio: 3) {
-	#window-controls .icon {
-		width: 10px;
-		height: 10px;
-	}
+  (device-pixel-ratio: 1.5),
+  (-webkit-device-pixel-ratio: 2),
+  (device-pixel-ratio: 2),
+  (-webkit-device-pixel-ratio: 3),
+  (device-pixel-ratio: 3) {
+  #window-controls .icon {
+    width: 10px;
+    height: 10px;
+  }
 }
 
 #window-controls .button:hover {
-	background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 #window-controls .button:active {
-	background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 #close-button:hover {
-	background: #e81123 !important;
+  background: #e81123 !important;
 }
 
 #close-button:active {
-	background: #f1707a !important;
+  background: #f1707a !important;
 }
+
 #close-button:active .icon {
-	filter: invert(1);
+  filter: invert(1);
 }
 
 #min-button {
-	grid-column: 1;
+  grid-column: 1;
 }
+
 #max-button,
 #restore-button {
-	grid-column: 2;
+  grid-column: 2;
 }
+
 #close-button {
-	grid-column: 3;
+  grid-column: 3;
 }
 
 #restore-button {
-	display: none !important;
+  display: none !important;
 }
 
 .maximized #restore-button {
-	display: flex !important;
+  display: flex !important;
 }
 
 .maximized #max-button {
-	display: none;
+  display: none;
 }

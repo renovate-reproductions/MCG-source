@@ -1,3 +1,10 @@
 {
-  "recommendations": ["editorconfig.editorconfig"]
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "stylelint.vscode-stylelint",
+    "esbenp.prettier-vscode",
+    "chenxsan.vscode-standardjs",
+    "mkaufman.HTMLHint",
+    "editorconfig.editorconfig"
+  ]
 }

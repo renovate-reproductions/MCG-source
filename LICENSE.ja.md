@@ -21,11 +21,11 @@ speakers understand the GNU GPL better.
 （訳: 以下は GNU General Public License の非公式な日本語訳です。これはフリーソフトウェア財団（Free Software Foundation）によって正式に発表されたものではなく、GNU GPL が適用されたソフトウェアの頒布条件を法的に有効な形で述べたものではありません。頒布条件としては、GNU GPL の英語版テキストで指定されているもののみが有効です。しかしながら、私たちはこの翻訳が、日本語を使用する人々にとって GNU GPL をより良く理解する助けとなることを望んでいます。）
 
 You may publish this translation, modified or unmodified, only under
-the terms at https://www.gnu.org/licenses/translations.html.
+the terms at <https://www.gnu.org/licenses/translations.html>.
 
-（訳: あなたはこの翻訳を、改変の有無を問わず、https://www.gnu.org/licenses/translations.html に記載された条件の下でのみ公開することができます。）
+（訳: あなたはこの翻訳を、改変の有無を問わず、<https://www.gnu.org/licenses/translations.html> に記載された条件の下でのみ公開することができます。）
 
-翻訳は八田真行 <mhatta@gnu.org> が行った。原文は https://www.gnu.org/licenses/gpl.txt である。誤訳の指摘や訳の改善案を歓迎する。なお、日本語訳の利用条件は原文に準ずる。
+翻訳は八田真行 <mhatta@gnu.org> が行った。原文は <https://www.gnu.org/licenses/gpl.txt> である。誤訳の指摘や訳の改善案を歓迎する。なお、日本語訳の利用条件は原文に準ずる。
 
 日本語訳を用意するに当たっては、独立行政法人 情報処理推進機構（IPA）の支援を得た。
 
@@ -49,7 +49,7 @@ GNU GPL を利用する開発者は、あなたの権利を 2 段階の手順を
 
 最後に、すべてのプログラムはソフトウェア特許によって絶え間なく脅かされています。およそ国家は、特許が汎用コンピュータにおけるソフトウェアの開発と利用を制限することを認めるべきではありません。しかし、そういったことを認めてしまっている地域においては、私たちは、特許がフリーなプログラムに適用され、実質的にプログラムがプロプライエタリにされてしまうという特別な脅威を避けたいと思います。こうした事態を防ぐために、GPL では、プログラムを非フリーとするために特許を使うことはできないということを保証します。
 
-（訳注: 本許諾書で「プロプライエタリ（proprietary）」とは、ソフトウェアの利用や再頒布、改変が禁止されているか、許可を得ることが必要とされているか、あるいは厳しい制限が課せられていて自由にそうすることが事実上できなくなっている状態のことを指す。詳しくは https://www.gnu.org/philosophy/categories.ja.html#ProprietarySoftware を参照せよ。）
+（訳注: 本許諾書で「プロプライエタリ（proprietary）」とは、ソフトウェアの利用や再頒布、改変が禁止されているか、許可を得ることが必要とされているか、あるいは厳しい制限が課せられていて自由にそうすることが事実上できなくなっている状態のことを指す。詳しくは <https://www.gnu.org/philosophy/categories.ja.html#ProprietarySoftware> を参照せよ。）
 
 複製、頒布、改変に関する正確な利用条件は以下で述べていきます。
 
@@ -99,7 +99,7 @@ GNU GPL を利用する開発者は、あなたの権利を 2 段階の手順を
 
 『保護された作品』は、1996 年 12 月 20 日に採択された WIPO 著作権条約第 11 項の下での義務を満たす適用可能な法のいずれか、あるいはそれに類似の法が、回避の禁止または制限の対象として規定する、「効果的な技術的手段」（effective technological measure）の一部として見なされてはならない。
 
-（訳注: WIPO 著作権条約については、http://www.cric.or.jp/db/treaty/wch_index.html 等を参照せよ。）
+（訳注: WIPO 著作権条約については、<http://www.cric.or.jp/db/treaty/wch_index.html> 等を参照せよ。）
 
 あなたが『保護された作品』を伝達する場合、『保護された作品』に関して本許諾書の下で権利を行使することにより、技術的手段の回避に影響が出る範囲において、そのような手段の回避を禁じるいかなる法的権力をも放棄することになる。また、あなたはその作品のユーザに対して、技術的手段の回避を禁じるためにあなたや第三者の法的権利を強制するための手段として、その作品の動作や改変を制限するいかなる意図も否認することになる。
 
@@ -251,7 +251,7 @@ GNU GPL を利用する開発者は、あなたの権利を 2 段階の手順を
         This program is free software; you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
         the Free Software Foundation; either version 3 of the License, or
-    	(at your option) any later version.
+     (at your option) any later version.
 
         This program is distributed in the hope that it will be useful,
         but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -276,9 +276,9 @@ GNU GPL を利用する開発者は、あなたの権利を 2 段階の手順を
         全く存在しません。*詳しくはGNU 一般公衆利用許諾書をご覧ください。あな
         たはこのプログラムと共に、GNU 一般公衆利用許諾書のコピーを一部受け取っ
         ているはずです。もし受け取っていなければ、
-    	<https://www.gnu.org/licenses/> をご覧ください。
+     <https://www.gnu.org/licenses/> をご覧ください。
 
-    	）
+     ）
 
 電子や紙のメールであなたに問い合わせる方法についての情報も書き加えましょう。
 
@@ -286,14 +286,14 @@ GNU GPL を利用する開発者は、あなたの権利を 2 段階の手順を
 
         <program> Copyright (C) <year> <name of author>
         This program comes with ABSOLUTELY NO WARRANTY; for details type `show w’.
-    	This is free software, and you are welcome to redistribute it
-    	under certain conditions; type `show c’ for details.
+     This is free software, and you are welcome to redistribute it
+     under certain conditions; type `show c’ for details.
 
         （訳:
         <プログラム名> Copyright (C) <年> <作者の名前>
         このプログラムは*全くの無保証*で提供されます。詳しくは「show w」と
         タイプして下さい。これはフリーソフトウェアであり、ある条件の下で再頒布することが
-    	奨励されています。詳しくは「show c」とタイプして下さい。
+     奨励されています。詳しくは「show c」とタイプして下さい。
 
         ）
 
