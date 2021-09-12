@@ -1,0 +1,15 @@
+Results of powershell linter (version 7.1.4)
+See documentation on https://nvuillam.github.io/mega-linter/descriptors/powershell_powershell/
+-----------------------------------------------
+
+✅ [SUCCESS] skins/build/fcg/src/powershell7-install.ps1
+❌ [ERROR] skins/build/fcg/src/powershell7.ps1
+    
+    RuleName                            Severity     ScriptName Line  Message
+    --------                            --------     ---------- ----  -------
+    PSUseBOMForUnicodeEncodedFile       Warning      powershell       Missing BOM e
+                                                     7.ps1            ncoding for n
+                                                                      on-ASCII enco
+                                                                      ded file 'pow
+                                                                      ershell7.ps1'
+

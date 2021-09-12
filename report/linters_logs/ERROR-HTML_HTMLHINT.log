@@ -1,0 +1,65 @@
+Results of htmlhint linter (version 0.15.1)
+See documentation on https://nvuillam.github.io/mega-linter/descriptors/html_htmlhint/
+-----------------------------------------------
+
+✅ [SUCCESS] plugin/NavigatorOnLine/index.html
+❌ [ERROR] theme/mcg/index.html
+    
+       Config loaded: .htmlhintrc
+    
+       theme/mcg/index.html
+          L19 |              class="icon"
+               ^ An alt attribute must be present on <img> elements. (alt-require)
+          L36 |              class="icon"
+               ^ An alt attribute must be present on <img> elements. (alt-require)
+          L53 |              class="icon"
+               ^ An alt attribute must be present on <img> elements. (alt-require)
+          L70 |              class="icon"
+               ^ An alt attribute must be present on <img> elements. (alt-require)
+    
+    Scanned 1 files, found 4 errors in 1 files (149 ms)
+
+❌ [ERROR] theme/simple/index.html
+    
+       Config loaded: .htmlhintrc
+    
+       theme/simple/index.html
+          L71 |      <label class="tab_item" for="setsumei">説明</label>
+                           ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L73 |      <label class="tab_item" for="kihon">基本</label>
+                           ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L75 |      <label class="tab_item" for="shousai">詳細</label>
+                           ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L77 |      <label class="tab_item" for="risuna">リスナー</label>
+                           ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L79 |      <label class="tab_item" for="hontai">本体</label>
+                           ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L81 |      <label class="tab_item" for="maruti">マルチ</label>
+                           ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L82 |      <div class="tab_content" id="setsumei_content">
+                         ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L82 |      <div class="tab_content" id="setsumei_content">
+                                             ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L91 |      <div class="tab_content" id="kihon_content">
+                         ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L91 |      <div class="tab_content" id="kihon_content">
+                                             ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L94 |      <div class="tab_content" id="shousai_content">
+                         ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L94 |      <div class="tab_content" id="shousai_content">
+                                             ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L97 |      <div class="tab_content" id="risuna_content">
+                         ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L97 |      <div class="tab_content" id="risuna_content">
+                                             ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L100 |      <div class="tab_content" id="hontai_content">
+                          ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L100 |      <div class="tab_content" id="hontai_content">
+                                              ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L103 |      <div class="tab_content" id="maruti_content">
+                          ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+          L103 |      <div class="tab_content" id="maruti_content">
+                                              ^ The id and class attribute values must be in lowercase and split by a dash. (id-class-value)
+    
+    Scanned 1 files, found 18 errors in 1 files (154 ms)
+

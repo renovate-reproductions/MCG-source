@@ -1,0 +1,15 @@
+Results of yamllint linter (version 1.26.3)
+See documentation on https://nvuillam.github.io/mega-linter/descriptors/yaml_yamllint/
+-----------------------------------------------
+
+✅ [SUCCESS] .community/FUNDING.yml
+✅ [SUCCESS] .github/dependabot.yml
+✅ [SUCCESS] .github/stale.yml
+✅ [SUCCESS] .github/workflows/codeql-analysis.yml
+✅ [SUCCESS] .github/workflows/electronegativity.yml
+✅ [SUCCESS] .github/workflows/mega-linter.yml
+✅ [SUCCESS] .github/workflows/njsscan-analysis.yml
+✅ [SUCCESS] .github/workflows/ossar-analysis.yml
+✅ [SUCCESS] .mega-linter.yml
+✅ [SUCCESS] .yaml-lint.yml
+✅ [SUCCESS] .yarnrc.yml

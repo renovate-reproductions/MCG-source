@@ -1,7 +1,7 @@
 module.exports = (app, BrowserWindow) => {
   let onlineStatusWindow
 
-  function createWindow() {
+  function createWindow () {
     onlineStatusWindow = new BrowserWindow({
       width: 0,
       height: 0,

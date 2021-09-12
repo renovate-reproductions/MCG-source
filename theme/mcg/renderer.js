@@ -8,7 +8,7 @@ html global `window` variable */
 
 // When document has loaded, initialise
 document.onreadystatechange = (event) => {
-  if (document.readyState == 'complete') {
+  if (document.readyState === 'complete') {
     handleWindowControls()
 
     document.getElementById('electron-ver').innerHTML = `${process.versions.electron}`
@@ -17,12 +17,12 @@ document.onreadystatechange = (event) => {
 
 window.onbeforeunload = (event) => {
   /* If window is reloaded, remove win event listeners
-   (DOM element listeners get auto garbage collected but not
+  (DOM element listeners get auto garbage collected but not
    Electron win listeners as the win is not dereferenced unless closed) */
   win.removeAllListeners()
 }
 
-function handleWindowControls() {
+function handleWindowControls () {
   // Make minimise/maximise/restore/close buttons work when they are clicked
   document.getElementById('min-button').addEventListener('click', event => {
     win.minimize()
@@ -45,7 +45,7 @@ function handleWindowControls() {
   win.on('maximize', toggleMaxRestoreButtons)
   win.on('unmaximize', toggleMaxRestoreButtons)
 
-  function toggleMaxRestoreButtons() {
+  function toggleMaxRestoreButtons () {
     if (win.isMaximized()) {
       document.body.classList.add('maximized')
     } else {

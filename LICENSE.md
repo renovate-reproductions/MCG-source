@@ -1,4 +1,6 @@
-# GNU General Public License
+<!-- markdownlint-disable -->
+GNU General Public License
+==========================
 
 _Version 3, 29 June 2007_
 _Copyright (C) 2007 Free Software Foundation, Inc. &lt;<http://fsf.org/>&gt;_

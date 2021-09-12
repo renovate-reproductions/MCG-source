@@ -1,0 +1,19 @@
+Results of prettier linter (version 2.3.2)
+See documentation on https://nvuillam.github.io/mega-linter/descriptors/json_prettier/
+-----------------------------------------------
+
+✅ [SUCCESS] .eslintrc-json.json
+✅ [SUCCESS] .github/renovate.json
+✅ [SUCCESS] .markdown-link-check.json
+✅ [SUCCESS] .markdown-lint.json
+✅ [SUCCESS] .vscode/extensions.json - FIXED
+✅ [SUCCESS] .vscode/settings.json - FIXED
+✅ [SUCCESS] data/comment.json
+✅ [SUCCESS] jsconfig.json
+✅ [SUCCESS] package.json - FIXED
+✅ [SUCCESS] skins/.vscode/settings.json - FIXED
+✅ [SUCCESS] skins/assets/hcg/config.json
+✅ [SUCCESS] skins/assets/mcg/config.json
+✅ [SUCCESS] skins/build/fcg/src/package.json - FIXED
+✅ [SUCCESS] skins/jsconfig.json
+✅ [SUCCESS] tsconfig.json

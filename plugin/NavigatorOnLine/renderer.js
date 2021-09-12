@@ -6,10 +6,10 @@ window.addEventListener('online',
 // 環境やプラグインの影響によって動作が異なり、接続しているのに接続していない表示されてしまう現象を防ぐためにコメントアウトしています。
 /*
 window.addEventListener("offline",
-   // オフラインになったときの処理
-   new Notification("[ステータス] オフライン", {
-      body: "インターネットに接続されていないことを検知しました。",
-   })
+  // オフラインになったときの処理
+  new Notification("[ステータス] オフライン", {
+    body: "インターネットに接続されていないことを検知しました。",
+  })
 );
 // */
 window.addEventListener('online', event => {

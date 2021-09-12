@@ -115,7 +115,7 @@ const template = Menu.buildFromTemplate([
 // メニューを適用する
 Menu.setApplicationMenu(template)
 
-function createWindow() {
+function createWindow () {
   // ブラウザウィンドウを作成します。
   window = new BrowserWindow({
     width: 400,
@@ -136,7 +136,7 @@ function createWindow() {
   window.loadFile('theme/simple/index.html')
 }
 
-function showNotification() {
+function showNotification () {
   // 通知を表示します。
   const notification = {
     title: 'Basic Notification',
@@ -155,51 +155,51 @@ app.whenReady().then(() => { /*
 }).then(() => {
   createWindow()// <-- function createWindow のやつを動かす。
   /*
-     window.setProgressBar(0.555555555555,{mode:"paused"})
-     setTimeout(() => {
-      window.setProgressBar(0)
+  window.setProgressBar(0.555555555555, { mode: "paused" })
+  setTimeout(() => {
+    window.setProgressBar(0)
+    setTimeout(() => {
+      window.setProgressBar(0.2)
       setTimeout(() => {
-        window.setProgressBar(0.2)
+        window.setProgressBar(0.25)
         setTimeout(() => {
-         window.setProgressBar(0.25)
-         setTimeout(() => {
-           window.setProgressBar(0.3,{mode:"error"})
-           setTimeout(() => {
+          window.setProgressBar(0.3, { mode: "error" })
+          setTimeout(() => {
             window.setProgressBar(0.9)
             setTimeout(() => {
               window.setProgressBar(0.99)
               setTimeout(() => {
-               window.setProgressBar(1)
-               setTimeout(() => {
-                 window.setProgressBar(-1)//win11では動作しない
-                 setTimeout(() => {
-                  window.setProgressBar(2)
-                 }, 2000)
-               }, 2000)
+                window.setProgressBar(1)
+                setTimeout(() => {
+                  window.setProgressBar(-1)//win11では動作しない
+                  setTimeout(() => {
+                    window.setProgressBar(2)
+                  }, 2000)
+                }, 2000)
               }, 2000)
             }, 2000)
-           }, 2000)
-         }, 2000)
+          }, 2000)
         }, 2000)
       }, 2000)
-     }, 2000)
-   // */
+    }, 2000)
+  }, 2000)
+  // */
   // このリスナーは、アプリケーションが起動した後に動きます。
   app.on('activate', () => {
 
     // 表示されているウィンドウがないときにのみ動きます。(バックグラウンド処理など)
     /*
-      if (BrowserWindow.getAllWindows().length === 0) {
-        // 新しいブラウザウィンドウを作成します。
-        createWindow()
-      }
-      // */
+    if (BrowserWindow.getAllWindows().length === 0) {
+      // 新しいブラウザウィンドウを作成します。
+      createWindow()
+    }
+    // */
   })
 }).then(() => {
   // showNotification()
 })
 
-function plugin() {
+function plugin () {
   require('./plugin/index.js')(app, BrowserWindow)
 }
 plugin()

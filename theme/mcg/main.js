@@ -7,7 +7,7 @@ const { app, BrowserWindow, nativeTheme } = require('electron')
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
-function createWindow() {
+function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 800,
@@ -17,7 +17,7 @@ function createWindow() {
     autoHideMenuBar: true,
     backgroundColor: nativeTheme.shouldUseDarkColors ? '#1e1e1e' : '#ffffff',
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
+      preload: __dirname + 'preload.js',
       enableRemoteModule: true,
       nodeIntegration: true,
       contextIsolation: true

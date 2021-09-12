@@ -1,0 +1,5 @@
+Results of xmllint linter (version 20912)
+See documentation on https://nvuillam.github.io/mega-linter/descriptors/xml_xmllint/
+-----------------------------------------------
+
+✅ [SUCCESS] plugin/MultiCommentViewer/comment.xml

@@ -1,0 +1,30 @@
+Results of markdown-link-check linter (version 0.0.0)
+See documentation on https://nvuillam.github.io/mega-linter/descriptors/markdown_markdown_link_check/
+-----------------------------------------------
+
+✅ [SUCCESS] .community/CHANGELOG.md
+✅ [SUCCESS] .community/CODE_OF_CONDUCT.ja.md
+✅ [SUCCESS] .community/CODE_OF_CONDUCT.md
+✅ [SUCCESS] .community/CONTRIBUTING.md
+✅ [SUCCESS] .community/LICENSES/GNUv3.ja.md
+✅ [SUCCESS] .community/LICENSES/GNUv3.md
+✅ [SUCCESS] .community/LICENSES/MIT.ja.md
+✅ [SUCCESS] .community/LICENSES/MIT.md
+✅ [SUCCESS] .community/LICENSES/README.md
+✅ [SUCCESS] .community/README.ja.md
+✅ [SUCCESS] .community/README.md
+✅ [SUCCESS] .community/SECURITY.ja.md
+✅ [SUCCESS] .community/SECURITY.md
+✅ [SUCCESS] .community/SUPPORTED_VERSIONS.md
+✅ [SUCCESS] LICENSE.ja.md
+✅ [SUCCESS] LICENSE.md
+✅ [SUCCESS] README.md
+✅ [SUCCESS] plugin/MultiCommentViewer/README.md
+✅ [SUCCESS] skins/CREDITS.md
+✅ [SUCCESS] skins/README.md
+✅ [SUCCESS] skins/assets/fcg/LICENCE.md
+✅ [SUCCESS] skins/assets/fcg/README.md
+✅ [SUCCESS] skins/assets/hcg/README.md
+✅ [SUCCESS] skins/assets/mcg/LICENSE.md
+✅ [SUCCESS] skins/assets/mcg/README.md
+✅ [SUCCESS] skins/build/fcg/README.md

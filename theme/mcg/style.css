@@ -98,9 +98,6 @@ p {
   top: 0;
   right: 0;
   height: 100%;
-}
-
-#window-controls {
   -webkit-app-region: no-drag;
 }
 
@@ -114,6 +111,7 @@ p {
   user-select: none;
 }
 
+/*
 @media (-webkit-device-pixel-ratio: 1.5),
   (device-pixel-ratio: 1.5),
   (-webkit-device-pixel-ratio: 2),
@@ -125,6 +123,7 @@ p {
     height: 10px;
   }
 }
+*/
 
 #window-controls .button:hover {
   background: rgba(255, 255, 255, 0.1);
@@ -132,6 +131,10 @@ p {
 
 #window-controls .button:active {
   background: rgba(255, 255, 255, 0.2);
+}
+
+#close-button {
+  grid-column: 3;
 }
 
 #close-button:hover {
@@ -153,10 +156,6 @@ p {
 #max-button,
 #restore-button {
   grid-column: 2;
-}
-
-#close-button {
-  grid-column: 3;
 }
 
 #restore-button {
