@@ -3,7 +3,7 @@
 
 時間があるときに作成しているので、完成するまでは時間がかかるよ....
 
-```
+```md
 [Warn] This repoligy is currently undergoing destructive changes. Until program configuration is available, pull requests and issues submitted may be ignored or rejected.
 [注意] このリポリジリは、破壊的変更を現在しています。プログラム構成ができるまで、プルリクエストや問題を提出しても無視または拒否される可能性があります。
 ```
