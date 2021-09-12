@@ -1,5 +1,5 @@
 //アプリケーションを制御し、ネイティブなブラウザウィンドウを作成するモジュール
-const { app, Menu, BrowserWindow, dialog, Notification, globalShortcut } = require('electron')
+const { app, Menu, BrowserWindow, dialog, Notification, globalShortcut, nativeTheme } = require('electron')
 const path = require('path')
 app.setName("MultiCommentGenerator")
 app.setAppUserModelId("electron.commentgeneratorcollection.multicommentgenerator");
@@ -126,6 +126,7 @@ function createWindow() {
 		maxWidth: 600,
 		maxHeight: 800,
 		frame: true,
+		backgroundColor: nativeTheme.shouldUseDarkColors ? '#1e1e1e' : '#ffffff',
 		webPreferences: {
 			preload: path.join(__dirname, 'theme/simple/preload.js'),
 			nodeIntegration: false,
@@ -171,7 +172,7 @@ app.whenReady().then(() => {/*
 				  setTimeout(() => {
 					window.setProgressBar(1)
 					setTimeout(() => {
-					  window.setProgressBar(-1)
+					  window.setProgressBar(-1)//win11では動作しない
 					  setTimeout(() => {
 						window.setProgressBar(2)
 					  }, 2000)
@@ -205,7 +206,9 @@ function plugin() {
 }
 plugin()
 
+
 // 開いているウィンドウがなくなったときにのみ動きます。
+// プラグイン関係で動かないけど、念のため。
 app.on('window-all-closed', () => {
 	// アプリケーションを終了！！
 	app.quit()

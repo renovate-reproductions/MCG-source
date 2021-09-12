@@ -7,17 +7,15 @@
 		<style>
 			/*タブ切り替え全体のスタイル*/
 			.tabs {
-				margin-top: 50px;
-				padding-bottom: 40px;
 				background-color: #fff;
 				box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 				margin: 0 auto;
-				min-height: calc(100% - 40px);
+				min-height: 100%;
 			}
 
 			/*タブのスタイル*/
 			.tab_item {
-				width: calc(100% / 3);
+				width: calc(100% / 4);
 				height: 30px;
 				border-bottom: 3px solid #5ab4bd;
 				background-color: #d9d9d9;
@@ -67,7 +65,7 @@
 		</style>
 	</head>
 
-	<body style="height: 100%;background: white;">
+	<body style="height: 100%;">
 		<div class="tabs">
 			<input id="setsumei" type="radio" name="tab_item" checked />
 			<label class="tab_item" for="setsumei">説明</label>
@@ -106,7 +104,6 @@
 				marutiの内容がここに入ります
 			</div>
 		</div>
-		<!--通知-->
 		<script src="./renderer.js"></script>
 	</body>
 </html>
