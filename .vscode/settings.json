@@ -9,7 +9,9 @@
     "**/.svn": true,
     "**/CVS": true,
     "**/Thumbs.db": true,
-    "node_modules/": true
+    "node_modules/": true,
+    "**/CODEOWNERS": true,
+    "LICENSE.*": true
   },
   "files.exclude": {
     ".community/": true,
@@ -21,12 +23,15 @@
     "**/CVS": true,
     "**/Thumbs.db": true,
     "node_modules/": true,
-    "LICENSE.md": false
+    "**/CODEOWNERS": true,
+    "LICENSE.*": true
   },
   "files.autoGuessEncoding": true,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
   "[bat]": {
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.vertical": "visible",
     "files.encoding": "shiftjis",
     "files.autoGuessEncoding": false,
     "files.eol": "\r\n"

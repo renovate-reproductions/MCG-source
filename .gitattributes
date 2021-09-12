@@ -5,6 +5,7 @@
 *.png -text
 *.gif -text
 *.exe -text
+*.dll -text
 
 .*      text eol=lf
 *.css   text eol=lf

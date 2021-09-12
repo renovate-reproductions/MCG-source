@@ -6,3 +6,7 @@
 	path = .community
 	url = https://github.com/CommentGeneratorCollection/.github
 	ignore = dirty
+[submodule "modules/7-zip"]
+	path = modules/7-zip
+	url = https://github.com/CommentGeneratorCollection/MCG-module-7-zip.git
+	ignore = dirty
