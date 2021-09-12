@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100vh;width: 100vw;">
 	<head>
 		<meta charset="UTF-8" />
-		<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
 		<title>MultiCommentGenerator</title>
-		<meta
-			http-equiv="Content-Security-Policy"
-			content="script-src 'self' 'unsafe-inline';"
-		/>
+    <link rel="stylesheet" href="./../reset.min.css">
 		<style>
 			/*タブ切り替え全体のスタイル*/
 			.tabs {
@@ -71,7 +67,7 @@
 		</style>
 	</head>
 
-	<body style="background: white">
+	<body style="height: 100%;background: white;">
 		<div class="tabs">
 			<input id="setsumei" type="radio" name="tab_item" checked />
 			<label class="tab_item" for="setsumei">説明</label>
