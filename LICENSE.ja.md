@@ -1,5 +1,6 @@
-<!-- markdownlint-disable-->
 # GNU 一般公衆利用許諾書（GNU GENERAL PUBLIC LICENSE）
+
+<!-- markdownlint-disable-->
 
 バージョン 3、2007 年 6 月 29 日
 

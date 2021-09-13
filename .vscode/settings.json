@@ -43,5 +43,5 @@
   "prettier.enable": true,
   "[javascript]": {
     "editor.defaultFormatter": "chenxsan.vscode-standardjs"
-},
+  }
 }

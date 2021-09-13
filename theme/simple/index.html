@@ -14,7 +14,7 @@
       }
 
       /*タブのスタイル*/
-      .tab_item {
+      .tab-item {
         width: calc(100% / 4);
         height: 30px;
         border-bottom: 3px solid #5ab4bd;
@@ -30,17 +30,17 @@
         transition: all 0.2s ease;
       }
 
-      .tab_item:hover {
+      .tab-item:hover {
         opacity: 0.75;
       }
 
       /*ラジオボタンを全て消す*/
-      input[name="tab_item"] {
+      input[name="tab-item"] {
         display: none;
       }
 
       /*タブ切り替えの中身のスタイル*/
-      .tab_content {
+      .tab-content {
         display: none;
         padding: 20px 20px 0;
         clear: both;
@@ -58,7 +58,7 @@
       }
 
       /*選択されているタブのスタイルを変える*/
-      .tabs input:checked + .tab_item {
+      .tabs input:checked + .tab-item {
         background-color: #5ab4bd;
         color: #fff;
       }
@@ -67,19 +67,19 @@
 
   <body style="height: 100%">
     <div class="tabs">
-      <input id="setsumei" type="radio" name="tab_item" checked />
-      <label class="tab_item" for="setsumei">説明</label>
-      <input id="kihon" type="radio" name="tab_item" />
-      <label class="tab_item" for="kihon">基本</label>
-      <input id="shousai" type="radio" name="tab_item" />
-      <label class="tab_item" for="shousai">詳細</label>
-      <input id="risuna" type="radio" name="tab_item" />
-      <label class="tab_item" for="risuna">リスナー</label>
-      <input id="hontai" type="radio" name="tab_item" />
-      <label class="tab_item" for="hontai">本体</label>
-      <input id="maruti" type="radio" name="tab_item" />
-      <label class="tab_item" for="maruti">マルチ</label>
-      <div class="tab_content" id="setsumei_content">
+      <input id="setsumei" type="radio" name="tab-item" checked />
+      <label class="tab-item" for="setsumei">説明</label>
+      <input id="kihon" type="radio" name="tab-item" />
+      <label class="tab-item" for="kihon">基本</label>
+      <input id="shousai" type="radio" name="tab-item" />
+      <label class="tab-item" for="shousai">詳細</label>
+      <input id="risuna" type="radio" name="tab-item" />
+      <label class="tab-item" for="risuna">リスナー</label>
+      <input id="hontai" type="radio" name="tab-item" />
+      <label class="tab-item" for="hontai">本体</label>
+      <input id="maruti" type="radio" name="tab-item" />
+      <label class="tab-item" for="maruti">マルチ</label>
+      <div class="tab-content" id="setsumei_content">
         <h1>MultiCommentGenerator-Electron</h1>
         <p>
           We are using Node.js <span id="node-version"></span>, Chromium
@@ -88,19 +88,19 @@
         </p>
         <p>補足、このソフトを開いた直後に閉じるとエラーが起きます。</p>
       </div>
-      <div class="tab_content" id="kihon_content">
+      <div class="tab-content" id="kihon_content">
         kihonの内容がここに入ります
       </div>
-      <div class="tab_content" id="shousai_content">
+      <div class="tab-content" id="shousai_content">
         shousaiの内容がここに入ります
       </div>
-      <div class="tab_content" id="risuna_content">
+      <div class="tab-content" id="risuna_content">
         risunaの内容がここに入ります
       </div>
-      <div class="tab_content" id="hontai_content">
+      <div class="tab-content" id="hontai_content">
         hontaiの内容がここに入ります
       </div>
-      <div class="tab_content" id="maruti_content">
+      <div class="tab-content" id="maruti_content">
         marutiの内容がここに入ります
       </div>
     </div>
