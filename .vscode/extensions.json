@@ -1,11 +1,10 @@
 {
   "recommendations": [
+    "esbenp.prettier-vscode",
+    "ibm.output-colorizer",
+    "chenxsan.vscode-standardjs",
     "editorconfig.editorconfig",
     "stylelint.vscode-stylelint",
-    "esbenp.prettier-vscode",
-    "chenxsan.vscode-standardjs",
-    "mkaufman.HTMLHint",
-    "editorconfig.editorconfig",
-    "ibm.output-colorizer"
+    "mkaufman.HTMLHint"
   ]
 }

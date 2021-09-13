@@ -35,5 +35,13 @@
     "files.encoding": "shiftjis",
     "files.autoGuessEncoding": false,
     "files.eol": "\r\n"
-  }
+  },
+  "standard._legacyModuleResolve": true,
+  "standard.autoFixOnSave": true,
+  "standard.enable": true,
+  "stylelint.enable": true,
+  "prettier.enable": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "chenxsan.vscode-standardjs"
+},
 }

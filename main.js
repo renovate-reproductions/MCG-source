@@ -1,5 +1,5 @@
-// アプリケーションを制御し、ネイティブなブラウザウィンドウを作成するモジュール
-const { app, Menu, BrowserWindow, dialog, Notification, globalShortcut, nativeTheme } = require('electron')
+// アプリケーションを制御し、ネイティブなブラウザウィンドウを作成するモジュール Notification, globalShortcut
+const { app, Menu, BrowserWindow, dialog, nativeTheme } = require('electron')
 const path = require('path')
 app.setName('MultiCommentGenerator')
 app.setAppUserModelId('electron.commentgeneratorcollection.multicommentgenerator')
@@ -136,6 +136,7 @@ function createWindow () {
   window.loadFile('theme/simple/index.html')
 }
 
+/*
 function showNotification () {
   // 通知を表示します。
   const notification = {
@@ -144,6 +145,7 @@ function showNotification () {
   }
   new Notification(notification).show()
 }
+*/
 
 // このメソッドは、Electronが初期化を終え、ブラウザウィンドウを作成する準備ができたときに呼び出されます。
 // 初期化が完了し、ブラウザウィンドウを作成する準備ができたときに呼び出されます。
