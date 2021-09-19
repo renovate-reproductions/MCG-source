@@ -1,4 +1,4 @@
-*      text=auto
+* text=auto
 
 *.jpg -text
 *.jpeg -text
@@ -6,6 +6,13 @@
 *.gif -text
 *.exe -text
 *.dll -text
+*.svg -text
+*.psd -text
+*.ai -text
+*.mqo -text
+*.glb -text
+*.blend -text
+*.afdesign -text
 
 .*      text eol=lf
 *.css   text eol=lf

@@ -29,6 +29,11 @@
   "files.autoGuessEncoding": true,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
+  "standard._legacyModuleResolve": true,
+  "standard.autoFixOnSave": true,
+  "standard.enable": true,
+  "stylelint.enable": true,
+  "prettier.enable": true,
   "[bat]": {
     "editor.scrollbar.horizontal": "visible",
     "editor.scrollbar.vertical": "visible",
@@ -36,11 +41,6 @@
     "files.autoGuessEncoding": false,
     "files.eol": "\r\n"
   },
-  "standard._legacyModuleResolve": true,
-  "standard.autoFixOnSave": true,
-  "standard.enable": true,
-  "stylelint.enable": true,
-  "prettier.enable": true,
   "[javascript]": {
     "editor.defaultFormatter": "chenxsan.vscode-standardjs"
   }

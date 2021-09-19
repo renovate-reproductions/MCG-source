@@ -13,7 +13,7 @@ const aboutPanel = function () {
   dialog.showMessageBox({
     title: `${app.name}について`,
     message: `${app.name} ${app.getVersion()}`,
-    detail: 'Made with 💗 by CommentGeneratorCollection.',
+    detail: 'Made with 💗 by CommentGeneratorCollection Contributers.',
     buttons: ['OK'],
     icon: 'assets/img/icon.png'
   })

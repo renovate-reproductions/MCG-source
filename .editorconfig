@@ -37,3 +37,10 @@ insert_final_newline = false
 [*.xml]
 indent_style = space
 insert_final_newline = false
+
+[*.json]
+indent_style = space
+insert_final_newline = false
+
+[.{node-version,editorconfig,git*,imgbotconfig}]
+insert_final_newline = false

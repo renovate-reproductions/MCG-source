@@ -1,0 +1,8 @@
+ownership_rules:
+  directory_matching_rules:
+    - name: data
+      path: data/*
+    - name: documentation
+      path: docs/*
+    - name: memo
+      path: .memo/*
