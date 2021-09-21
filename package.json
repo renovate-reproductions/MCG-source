@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "electron": "14.0.1",
-    "mega-linter-runner": "4.45.0",
+    "mega-linter-runner": "4.46.0",
     "typescript": "4.4.3"
   },
   "packageManager": "yarn@3.0.1"
