@@ -24,7 +24,13 @@ on:
       - renovate/**
     paths-ignore:
       - README.md
+      - README.txt
+      - LICENSE.md
+      - LICENSE.txt
       - LICENSE
+      - COPYING.md
+      - COPYING.txt
+      - COPYING
       - .gitignore
       - .github/ISSUE_TEMPLATE/**
       - .dockerignore

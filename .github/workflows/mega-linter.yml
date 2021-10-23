@@ -6,8 +6,44 @@ name: Mega-Linter
 on:
   # Trigger mega-linter at every push. Action will also be visible from Pull Requests to master
   push: # Comment this line to trigger action only on pull-requests (not recommended if you don't pay for GH Actions)
+    branches-ignore:
+      - dependabot/**
+      - renovate/**
+    paths-ignore:
+      - README.md
+      - README.txt
+      - LICENSE.md
+      - LICENSE.txt
+      - LICENSE
+      - COPYING.md
+      - COPYING.txt
+      - COPYING
+      - .gitignore
+      - .github/ISSUE_TEMPLATE/**
+      - .dockerignore
+      - .env.example
+      - .node-version
+      - .nvmrc
   pull_request:
     branches: [master, main]
+    branches-ignore:
+      - dependabot/**
+      - renovate/**
+    paths-ignore:
+      - README.md
+      - README.txt
+      - LICENSE.md
+      - LICENSE.txt
+      - LICENSE
+      - COPYING.md
+      - COPYING.txt
+      - COPYING
+      - .gitignore
+      - .github/ISSUE_TEMPLATE/**
+      - .dockerignore
+      - .env.example
+      - .node-version
+      - .nvmrc
 
 env: # Comment env block if you do not want to apply fixes
   # Apply linter fixes configuration
