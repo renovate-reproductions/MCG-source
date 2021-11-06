@@ -11,9 +11,6 @@ on:
     #    branches: [ develop ]
     #  schedule:
     #    - cron: '15 0 * * 5'
-    branches-ignore:
-      - dependabot/**
-      - renovate/**
     paths-ignore:
       - README.md
       - README.txt
