@@ -31,14 +31,14 @@ body {
 }
 
 h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
   font-weight: 600;
   line-height: 1.2;
 }
 
 p {
   margin-top: 10px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(255 255 255 / 40%);
 }
 
 #titlebar {
@@ -126,11 +126,11 @@ p {
 */
 
 #window-controls .button:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(255 255 255 / 10%);
 }
 
 #window-controls .button:active {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255 255 255 / 20%);
 }
 
 #close-button {
